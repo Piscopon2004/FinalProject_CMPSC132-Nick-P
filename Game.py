@@ -55,7 +55,8 @@ def run_round():
         elif guess > secret_number:
             print("Too high — go lower.")
         else:
-            print(f"Nice! You got it in {tries} tries.")
+            print("Correct! Congratulations!")
+            print(f"You guessed it in {tries} tries.")
             break
 
 
